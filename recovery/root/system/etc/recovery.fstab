@@ -60,7 +60,7 @@ odm						/odm		ext4	ro,barrier=1			wait,logical,first_stage_mount
 
 # Samsung ODE
 #/dev/block/bootdevice/by-name/keydata		/keydata        ext4	defaults			recoveryonly
-/dev/block/bootdevice/by-name/keyrefuge		/keyrefuge	f2fs	defaults			recoveryonly
+#/dev/block/bootdevice/by-name/keyrefuge		/keyrefuge	f2fs	defaults			recoveryonly
 
 #Auto-generated code by FOTA Portal
 /dev/block/bootdevice/by-name/dtbo		/dtbo		emmc	default				recoveryonly
